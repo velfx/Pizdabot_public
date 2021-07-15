@@ -129,7 +129,7 @@ def main():
                 msg_txt = msg_txt.lower()
                 peer_id = event.message.peer_id
                 from_id = event.message.from_id
-                print(event.message)
+                #print(event.message)
                 if msg_txt == "да" or msg_txt == "да!" or msg_txt == "да?" or msg_txt == "lf":
                     rply(peer_id, event.message.from_id, "Пизда!", freq)
                 elif msg_txt == "нет":
